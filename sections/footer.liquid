@@ -1,0 +1,29 @@
+<footer class="footer">
+  <div class="footer__container">
+    <div class="footer__left">
+      <img src="/assets/ket_club.jpg" alt="Logo" class="footer__logo" />
+      <span class="footer__logo-text">{{ settings['footer'].settings.logo_text }}</span>
+    </div>
+    <div class="footer__center">
+      <nav class="footer__nav-main">
+        {% for link in settings['footer'].settings.links %}
+          <a href="{{ link.url }}" class="footer__link-main">{{ link.label | upcase }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="footer__right">
+      <input type="email" class="footer__newsletter" placeholder="Newsletter" />
+      <div class="footer__socials">
+        <a href="https://facebook.com" aria-label="Facebook" class="footer__social" target="_blank" rel="noopener">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0" fill="currentColor"/></svg>
+        </a>
+        <a href="https://x.com" aria-label="X" class="footer__social" target="_blank" rel="noopener">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.53 2.47a.75.75 0 0 1 1.06 1.06L13.06 9l5.53 5.47a.75.75 0 1 1-1.06 1.06L12 10.06l-5.47 5.47a.75.75 0 1 1-1.06-1.06L10.94 9 5.47 3.53A.75.75 0 1 1 6.53 2.47L12 7.94l5.53-5.47Z" fill="currentColor"/></svg>
+        </a>
+        <a href="https://instagram.com" aria-label="Instagram" class="footer__social" target="_blank" rel="noopener">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="6" fill="currentColor"/><path d="M12 7.2A4.8 4.8 0 1 0 12 16.8 4.8 4.8 0 0 0 12 7.2Zm0 7.8A3 3 0 1 1 12 9a3 3 0 0 1 0 6Zm5.25-7.05a1.05 1.05 0 1 1-2.1 0 1.05 1.05 0 0 1 2.1 0Z" fill="#232936"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Shuffle Crewneck Black",
+    "price": 49.99,
+    "tags": ["clothing", "sweater"],
+    "image": "shuffle_crewneck_black.avif",
+    "description": "A stylish black crewneck sweater."
+  },
+  {
+    "id": 2,
+    "title": "Shuffle Hoodie Purple",
+    "price": 59.99,
+    "tags": ["clothing", "hoodie"],
+    "image": "shuffle_crewneck_grey.avif",
+    "description": "A comfortable purple hoodie for everyday wear."
+  },
+  {
+    "id": 3,
+    "title": "Shuffle Essentials",
+    "price": 29.99,
+    "tags": ["accessories", "daily"],
+    "image": "shuffle_essentials.webp",
+    "description": "Your daily essential accessory set."
+  },
+  {
+    "id": 4,
+    "title": "Shuffle Hat Black",
+    "price": 19.99,
+    "tags": ["clothing", "hat"],
+    "image": "shuffle_hat_black.avif",
+    "description": "A black hat for all seasons."
+  },
+  {
+    "id": 5,
+    "title": "Shuffle Hat Purple",
+    "price": 19.99,
+    "tags": ["clothing", "hat"],
+    "image": "shuffle_hat_purple.avif",
+    "description": "A purple hat to match your hoodie."
+  },
+  {
+    "id": 6,
+    "title": "Shuffle Hoodie Black",
+    "price": 59.99,
+    "tags": ["clothing", "hoodie"],
+    "image": "shuffle_hoodie_black.avif",
+    "description": "A versatile black hoodie for daily use."
+  },
+  {
+    "id": 7,
+    "title": "Shuffle T-Shirt White",
+    "price": 25.99,
+    "tags": ["clothing", "t-shirt"],
+    "image": "shuffle_t_shirt_white.avif",
+    "description": "A classic white t-shirt for every occasion."
+  },
+  {
+    "id": 8,
+    "title": "Shuffle T-Shirt Black",
+    "price": 25.99,
+    "tags": ["clothing", "t-shirt"],
+  "image": "shuffle_t-shirt_black.avif",
+    "description": "A stylish black t-shirt for casual wear."
+  },
+  {
+    "id": 9,
+    "title": "Ket Club Mug",
+    "price": 15.99,
+    "tags": ["home", "mug"],
+    "image": "ket_club.jpg",
+    "description": "A premium mug for coffee lovers."
+  },
+  {
+    "id": 10,
+    "title": "Waifu Body Pillow",
+    "price": 89.99,
+    "tags": ["home", "decor"],
+    "image": "waifu_body_pillow.avif",
+    "description": "Comfortable body pillow with a unique design."
+  }
+]

@@ -1,0 +1,14 @@
+<div id="cart-modal" class="cart-modal" style="display:none;">
+  <div class="cart-modal__content">
+  <button class="cart-modal__close" aria-label="Close cart">&times;</button>
+  <h2>Cart</h2>
+    <ul class="cart-modal__list"></ul>
+    <div class="cart-modal__total" style="margin-top:1.5rem;text-align:right;font-weight:bold;font-size:1.1rem;">
+      Total: $<span id="cart-modal-total">0.00</span>
+    </div>
+    <div class="cart-modal__actions" style="margin-top:1.5rem; display: flex; gap: 1rem; justify-content: flex-end;">
+  <button id="cart-modal-pay" class="cart-modal__pay" style="background: #ff5a5f; color: #fff; border: none; padding: 0.6rem 1.2rem; border-radius: 6px; font-weight: bold; cursor: pointer;">Checkout</button>
+  <button id="cart-modal-clear" class="cart-modal__clear" style="background: #eee; color: #222; border: none; padding: 0.6rem 1.2rem; border-radius: 6px; font-weight: bold; cursor: pointer;">Empty cart</button>
+    </div>
+  </div>
+</div>

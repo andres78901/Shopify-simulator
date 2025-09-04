@@ -1,0 +1,19 @@
+<section class="hero-banner">
+  <img src="/assets/{{ settings['hero-banner'].settings.background_image }}" alt="Hero Banner" class="hero-banner__img" />
+  <div class="hero-banner__content">
+    <button 
+      class="hero-banner__button" 
+      id="hero-banner-shop-new"
+      data-title="{{ settings['hero-banner'].settings.product_title | default: 'Hero Product' }}"
+      data-price="{{ settings['hero-banner'].settings.product_price | default: '99.99' }}"
+      data-img="/assets/{{ settings['hero-banner'].settings.product_image | default: 'hero_banner_img.avif' }}">
+      {{ settings['hero-banner'].settings.button_text }}
+    </button>
+  </div>
+  <div class="hero-banner__marquee">
+    <div class="hero-banner__marquee-track">
+      <span>{{ settings['hero-banner'].settings.marquee_text }}</span>
+      <span aria-hidden="true">{{ settings['hero-banner'].settings.marquee_text }}</span>
+    </div>
+  </div>
+</section>

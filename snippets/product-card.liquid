@@ -1,0 +1,19 @@
+
+<div class="product-card">
+  <img src="/assets/{{ product.image }}" alt="{{ product.title }}" class="product-card__img" />
+  <h3>{{ product.title }}</h3>
+  <p>Price: ${{ product.price }}</p>
+  <button class="product-card__add-to-cart" 
+    data-title="{{ product.title }}" 
+    data-price="{{ product.price }}" 
+    data-img="/assets/{{ product.image }}">
+    Add to cart
+  </button>
+  {% if product.tags %}
+    <ul>
+      {% for tag in product.tags %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

@@ -1,0 +1,31 @@
+{
+  "name": "shopify-simulator",
+  "version": "1.0.2",
+  "description": "Shopify simulator template",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack"
+  },
+  "keywords": [
+    "shopify",
+    "javascript",
+    "liquid"
+  ],
+  "author": "miguelgradi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "liquidjs": "^10.20.1",
+    "sweetalert2": "^11.23.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.9.4",
+    "sass": "^1.62.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

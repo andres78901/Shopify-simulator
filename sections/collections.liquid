@@ -1,0 +1,11 @@
+<section class="collections" id="collections">
+<h2>{{ settings['collections'].settings.heading }}</h2>
+<div class="collections__list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; margin-top: 2rem;">
+    {% for collection in collections %}
+    <div class="collection-card">
+        <img src="/assets/{{ collection.image }}" alt="{{ collection.title }}" class="collection-card__img" />
+        <span class="collection-card__title">{{ collection.title }}</span>
+    </div>
+    {% endfor %}
+</div>
+</section>
