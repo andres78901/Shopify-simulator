@@ -100,61 +100,6 @@ Example:
 </section>
 ```
 
-### **Snippets**
-
-Snippets are reusable components, such as a product card. You can include a snippet using the `{% render %}` tag:
-
-Example:
-
-```liquid
-<div class="product-list">
-  {% for product in products %}
-    {% render 'product-card', product: product %}
-  {% endfor %}
-</div>
-```
-
-### **Iterating Over Objects**
-
-Liquid allows you to iterate over arrays, such as products or collections:
-
-```liquid
-<ul>
-  {% for product in products %}
-    <li>{{ product.title }} - ${{ product.price }}</li>
-  {% endfor %}
-</ul>
-```
-
-### **Filters**
-
-Filters are used to manipulate output. Some common filters:
-
-- `capitalize`: Capitalizes the first letter.
-- `date`: Formats a date.
-- `money`: Formats a number as currency.
-
-Example:
-
-```liquid
-{{ product.price | money }}
-{{ product.created_at | date: "%B %d, %Y" }}
-```
-
----
-
-## **Dynamic Configuration**
-
-### **Schema (`settings_schema.json`)**
-
-The schema defines the settings available for a section. While it's necessary in Shopify, it might not be required here.
-
-### **Data (`settings_data.json`)**
-
-This file contains the dynamic values for settings
-
-## **Setup Instructions**
-
 ### **Install Dependencies**
 
 ```bash
@@ -175,17 +120,6 @@ npm run build
 
 ---
 
-## **Additional Notes**
-
-### **Assets**
-
-All product, banner, and collection images are stored in the `/assets` folder. Refer to the `data/products.json` and `data/collections.json` files for mappings.
-
-### **Testing the Application**
-
-Visit `http://localhost:3000` in your browser to view the simulator in action.
-
----
 
 Feel free to customize the simulator further to match your requirements. Happy coding! 🚀
 
